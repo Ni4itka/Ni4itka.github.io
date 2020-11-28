@@ -1,0 +1,74 @@
+*{
+
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+main{
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color:#fff;
+    box-shadow: 0 0 40px 20px rgba(0,0,0,0.2)
+}
+body{
+	background: #efefef;
+	font-family: Pacifico;
+}
+@font-face{
+	font-family: Pacifico;
+	src:url(../fonts/Pacifico-Regular.ttf);
+}
+.photo{
+	width: calc(50% - 40px);
+    height:calc((35vw - 40px) / 16 * 9);
+    margin: 20px;
+	background-color:orange;
+	background-position: center;
+	background-size:cover;
+
+}
+h1{
+	width: 100%;
+	text-align:center;
+	font-size: 48px;
+}
+.photo1{
+		background-image: url(../img/01.jpg);
+}
+.photo2{
+		background-image: url(../img/ДЕлфины.jpg);
+}
+.photo3{
+		background-image: url(../img/Доджик.jpg);
+}
+.photo4{
+		background-image: url(../img/ЛАМБА.jpg);
+}
+.photo5{
+		background-image: url(../img/Луна.jpg);
+}
+.photo6{
+		background-image: url(../img/Ляпота.jpg);
+}
+.photo7{
+		background-image: url(../img/Пляж.jpg);
+}
+.photo8{
+		background-image: url(../img/РАстения.jpg);
+}
+.photo9{
+		background-image: url(../img/хак.jpg);
+}
+.photo10{
+		background-image: url(../img/Цитата.jpg);
+}
+.photo11{
+		background-image: url(../img/Цитата2.jpg);
+}
+.photo12{
+		background-image: url(../img/Цитата3.jpg);
+}
